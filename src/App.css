@@ -488,6 +488,12 @@ Navbar
 .nav-toggle:hover {
   transform: scale(1.2);
 }
+/* OPTIONAL */
+.site-header {
+  /* Example: keep it above the page content */
+  position: relative;
+  z-index: 2;
+}
 .nav-link {
   display: block;
   padding: 1rem 2rem;
